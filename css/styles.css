@@ -54,12 +54,14 @@ a:hover a:focus {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
+a {
   transition: all .5s;
+
 }
 
-.nav a:hover {
-  color: white
+ a:hover {
+  color: tomato;
+      text-decoration: underline;
 }
 
 header {
@@ -173,6 +175,7 @@ footer img{
     width:auto;
     height:auto;
 }
+
 a.social {
   display: inline-block;
   margin-left: 5px;
@@ -183,18 +186,33 @@ a.social {
   transition: all .5s;
 }
 
+footer li p{
+    text-indent: -20000px;
+}
 a.twitter {
-  background-image: url(../img/twitter-32.png);
+    background-image: url(../img/twitter-32.png);
+    
 }
-
+ a.twitter:hover {
+background-color: #4099FF;
+     border-radius: 15px;
+}
 a.youtube {
-  background-image: url(../img/youtube-32.png);
+    background-image: url(../img/youtube-32.png);
+    
 }
-
+a.youtube:hover {
+background:red;
+    border-radius: 15px;
+}
 a.spotify {
-  background-image: url(../img/spotify-32.png);
+    background-image: url(../img/spotify-32.png);
+    
 }
-
+a.spotify:hover {
+background-color: #81b71a;
+    border-radius: 15px;
+}
 a.social:hover a.social:focus {
   opacity: 1;
     

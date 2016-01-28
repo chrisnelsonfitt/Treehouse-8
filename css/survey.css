@@ -10,7 +10,10 @@ form {
   text-align: left;
   display: inline-block;
 }
-
+textarea:focus, 
+input:focus{
+     background-color: lightcyan;
+}
 .container{
   text-align: center;
 }

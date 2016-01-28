@@ -12,9 +12,9 @@
   <body>
     <div class="main-nav">
       <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
-        <li><a href="tour.html">Tour</a></li>
-        <li><a href="#">Survey</a></li>
+        <li class="name"><a href="index.html" tabindex="0">Accessible Frog</a></li>
+        <li><a href="tour.html" tabindex="0">Tour</a></li>
+        <li><a href="#" tabindex="0">Survey</a></li>
       </ul>
     </div>
 
@@ -33,28 +33,31 @@
                 
                 <fieldset>
                     <legend>Who is your Favorite band Member:</legend>
-              <input type="radio" id="John"  name="res" value="John" > <label for="John">John</label>
-              <input type="radio" id="Hazzard" name="res" value="Hazzard" > <label for="Hazzard">Hazzard</label>
-              <input type="radio" id="Bob" name="res" value="Bob"> <label for="Bob" >Bob</label>
-              <input type="radio" id="Sally" name="res" value="Sally"> <label for='Sally'>Sally</label>
-
-              <p>What is your favorite Album:</p>
-              <select id="albums" name="select" >
-                <option value="1">Party For An Angel</option>
-                <option value="2">A Day Of Old</option>
-                <option value="3">Finding My Shadow</option>
-                <option value="4">Diamond Fireworks</option>
-                <option value="5">Enjoy Your Desire</option>
-                <option value="6">This Is For You</option>
-                <option value="7">Music Of My Life</option>
-                <option value="8">Song For Yesterday</option>
-                <option value="9">Heroic Forever</option>
-                <option value="10">Midnight Fires</option>
-                <option value="11">Street Of The Rider</option>
+              <input type="radio" id="John"  name="res" value="John" tabindex="0"> <label for="John" >John</label>
+              <input type="radio" id="Hazzard" name="res" value="Hazzard" tabindex="0"> <label for="Hazzard">Hazzard</label>
+              <input type="radio" id="Bob" name="res" value="Bob" tabindex="0"> <label for="Bob" >Bob</label>
+              <input type="radio" id="Sally" name="res" value="Sally" tabindex="0"> <label for='Sally'>Sally</label>
+<br><br>
+              <label for="albums">What is your favorite Album:</label><br>
+              <select id="albums" name="select" tabindex="0">
+                
+                  <option value="2">A Day Of Old</option>
+                  <option value="4">Diamond Fireworks</option>
+                  <option value="5">Enjoy Your Desire</option>
+                  <option value="3">Finding My Shadow</option>
+                  <option value="9">Heroic Forever</option>
+                  <option value="10">Midnight Fires</option>
+                  <option value="7">Music Of My Life</option>
+                  <option value="1">Party For An Angel</option>
+                  <option value="8">Song For Yesterday</option>
+                  <option value="11">Street Of The Rider</option>
+                  <option value="6">This Is For You</option>
+                
+              
               </select>
 <br><br>
               <label for="favorite">What is your favorite album:</label><br><br>
-              <textarea id= "favorite"></textarea>
+              <textarea id= "favorite" tabindex="0"></textarea>
                     </fieldset>
             </form>
           </div>
@@ -68,12 +71,12 @@
               <form class="newsletter">
                   <fieldset>
                       <legend>Enter Your Information:</legend>
-                  <label for="name">Name:</label> <input type ="text" id="name" name="textfield">
+                  <label for="name">Name:</label> <input type ="text" id="name" name="textfield" tabindex="0">
                       <br><br>
-                  <label for="email-1">Email:</label> <input type ="text" id="email-1" name="textfield">
+                  <label for="email-1">Email:</label> <input type ="text" id="email-1" name="textfield" tabindex="0">
                       <br><br>
-                  <label for="email-2">Reenter Email:</label> <input type ="text" id="email-2" name="textfield"><br>
-                  <button type="submit" >Sign Up</button>
+                  <label for="email-2">Reenter Email:</label> <input type ="text" id="email-2" name="textfield" tabindex="0"><br>
+                  <button type="submit" tabindex="0" >Sign Up</button>
                       </fieldset>
               </form>
             </div>
@@ -82,13 +85,13 @@
     </main>
     
  <footer>
-      <ul>
-        <a href="#" class="social twitter" title="Twitter"><li>
-            <img src="/img/twitter-32.png" alt=""></li></a>
-        <a href="#" class="social youtube" title="YouTube"><li>
-            <img src="/img/youtube-32.png" alt=""></li></a>
-        <a href="#" class="social spotify" title="Spotify"><li>
-            <img src="/img/spotify-32.png" alt=""></li></a>
+     <ul>
+          <li ><a href="#" class="social twitter" title="Twitter" tabindex="0">
+            <img src="img/twitter-32.png" alt="Twitter"></a></li>
+        <li><a href="#" class="social youtube" title="YouTube">
+            <img src="img/youtube-32.png" alt="YouTube"></a></li>
+        <li><a href="#" class="social spotify" title="Spotify">
+            <img src="img/spotify-32.png" alt="Spotify"></a></li>
       </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>
